@@ -52,7 +52,7 @@ const App: React.FC = () => {
         }}
       >
         {time.days} Days, {time.hours} Hours, {time.minutes} Minutes, and{" "}
-        {time.seconds} Seconds remaining...
+        {time.seconds} Seconds remaining until May Exams.
       </div>
       {query && (
         <div
