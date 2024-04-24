@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import QueryHandler from "./QueryHandler";
 
-const DEATH = new Date("2024-04-24T12:00:00");
+const DEATH = new Date("2024-04-25T8:30:00");
 
 const App: React.FC = () => {
   const [time, setTime] = useState({
